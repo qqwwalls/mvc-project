@@ -28,6 +28,9 @@ public class Product
     [Column("category_id")]
     public int CategoryId { get; set; } = 1;
 
+    [Column("is_active")]
+    public bool IsActive { get; set; } = true;
+
     [Column("image_url")]
     public string? ImageUrl { get; set; }
 
